@@ -29,6 +29,14 @@ public class TiposOperadores {
         System.out.println("Valor de a após atribuição e incremento: " + a);
         System.out.println("Mensagem: " + mensagem);
         System.out.println("Mensagem é uma instância de String: " + instancia);
+
+        // Exemplo de repetição usando operador de incremento
+        System.out.println("Contagem de 1 a 5:");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+        }   
+
+
         
     }
 }
