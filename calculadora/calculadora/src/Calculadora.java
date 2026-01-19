@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Calculadora {
     public static void main(String[] args) throws Exception {
+
+            System.out.println("Fui executado pelo terminal do VS Code!"); 
         
         // Cria um objeto Scanner para capturar entradas do teclado
         Scanner scanner = new Scanner(System.in);
@@ -67,5 +69,8 @@ public class Calculadora {
 
         // Fecha o objeto Scanner para liberar recursos
         scanner.close();
+        
     }
+
+ 
 }
